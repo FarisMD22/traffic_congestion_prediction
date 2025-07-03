@@ -1,0 +1,4 @@
+Model,Architecture,Parameters,Training_Method,Memory_Usage_MB,CPU_Cores_Used,Reproducibility
+Random Forest,"100 trees, max_depth=10","n_estimators=100, random_state=42",Bootstrap aggregating,156,8,Yes (random_state=42)
+RBF SVM,"RBF kernel, C=10, gamma=scale","GridSearchCV 3-fold, 9 combinations",Sequential Minimal Optimization,892,8,Yes (random_state=42)
+Logistic Regression,"L2 regularization, C=1.0","max_iter=1000, solver=lbfgs",Limited-memory BFGS,12,1,Yes (random_state=42)

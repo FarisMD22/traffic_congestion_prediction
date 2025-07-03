@@ -1,0 +1,9 @@
+Study,Accuracy (%),Dataset_Size,Features,Method_Type,Real_Time,Geographic_Scope
+Our Random Forest (2025),91.3,48204,Time + Weather + Sensors,Ensemble (Random Forest),Yes,Minneapolis Metro
+Lv et al. (2015) - Stacked Autoencoder,85.2,15000,Traffic Flow Only,Deep Learning,Limited,California Highways
+Ma et al. (2017) - LSTM Traffic Speed,87.8,25000,Speed + Volume + Occupancy,Recurrent Neural Network,Yes,Beijing Ring Road
+Zhang et al. (2020) - CNN-LSTM Hybrid,89.1,35000,Taxi + Weather,Hybrid Deep Learning,Yes,NYC Manhattan
+Kumar et al. (2019) - SVM Traffic,82.3,12000,Loop Detector Data,Support Vector Machine,Limited,German Autobahn
+Li et al. (2021) - Ensemble Methods,85.8,20000,Multi-source Traffic,Ensemble Methods,Yes,Multiple Chinese Cities
+Google Maps (Commercial Est.),88.0,Millions,GPS + Crowdsourced,Proprietary Algorithm,Yes,Global
+Traditional Time-based Methods,72.5,Various,Historical Patterns,Statistical Methods,No,Various

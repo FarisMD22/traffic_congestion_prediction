@@ -1,0 +1,8 @@
+Feature,Importance (%),Data Type,Description
+Hour of Day,68.0,Temporal,0-23 hour format
+Day of Week,13.1,Temporal,Monday=0 to Sunday=6
+Weekend Indicator,9.3,Temporal,Binary weekend flag
+Temperature,4.6,Weather,Temperature in Kelvin
+Rush Hour Flag,3.3,Temporal,"Binary rush hour (7-9AM, 5-7PM)"
+Cloud Coverage,6.1,Weather,Cloud coverage %
+Rain Intensity,2.3,Weather,Rain in mm/hour

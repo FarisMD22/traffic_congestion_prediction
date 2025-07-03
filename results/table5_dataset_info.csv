@@ -1,0 +1,10 @@
+Characteristic,Value
+Total Samples,"48,204"
+Training Samples,"38,563"
+Test Samples,"9,641"
+Features,7
+Congested Samples (%),29.99%
+Non-Congested Samples (%),70.01%
+Time Period,2012-2018
+Missing Values,0 (after cleaning)
+Data Source,Minneapolis Metro Interstate

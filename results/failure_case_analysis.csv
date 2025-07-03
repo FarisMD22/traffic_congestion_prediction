@@ -1,0 +1,8 @@
+Scenario,Current_Accuracy,Error_Rate,Frequency,Impact_Severity
+Rush hour transition periods,88,12,Daily,Medium
+Sudden weather changes,85,15,Weekly,High
+Unscheduled construction,82,18,Monthly,High
+Major accidents,79,21,Weekly,Very High
+Sensor network failures,89,11,Monthly,Medium
+Special events (concerts/sports),85,15,Weekly,Medium
+Holiday traffic patterns,87,13,Seasonal,Low

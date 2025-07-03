@@ -1,0 +1,8 @@
+Step,Input_Shape,Processing_Time,Data_Quality_Check
+Data Loading,"(48204, 9)",0.1,Raw data loaded successfully
+Missing Value Handling,"(48204, 9)",0.05,Zero missing values after cleaning
+Feature Engineering,"(48204, 12)",0.2,Temporal features created
+Target Variable Creation,"(48204, 13)",0.1,30% congestion rate achieved
+Data Splitting,"Train: (38563, 7), Test: (9641, 7)",0.02,Stratified split maintained class balance
+Feature Scaling,Scaled features for SVM only,0.01,Features normalized for SVM
+Final Validation,Final dataset ready,0.01,No data leakage detected

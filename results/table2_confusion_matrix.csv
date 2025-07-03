@@ -1,0 +1,5 @@
+Actual Class,Predicted Class,Count,Percentage (%)
+Non-Congested,Non-Congested,6221,64.5
+Non-Congested,Congested,529,5.5
+Congested,Non-Congested,313,3.2
+Congested,Congested,2578,26.7

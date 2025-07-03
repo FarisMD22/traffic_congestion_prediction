@@ -1,0 +1,86 @@
+{
+  "dataset_info": {
+    "traffic_records": 48204,
+    "traffic_columns": 16,
+    "weather_files": 6,
+    "estimated_final_features": 7,
+    "memory_usage_mb": 10.790122985839844,
+    "date_range": "2012-10-02 09:00:00 to 2018-09-30 23:00:00"
+  },
+  "data_quality": {
+    "traffic_missing_values": "48143",
+    "traffic_duplicates": "17",
+    "complete_traffic_records_pct": 0.12654551489502947
+  },
+  "traffic_analysis": {
+    "mean_traffic": 3259.8183553232097,
+    "congestion_threshold": 4721.0,
+    "congestion_rate_pct": 29.985063480209114
+  },
+  "weather_data": {
+    "humidity": {
+      "shape": [
+        45253,
+        37
+      ],
+      "missing_pct": 1.7111602575549716
+    },
+    "pressure": {
+      "shape": [
+        45253,
+        37
+      ],
+      "missing_pct": 0.9962009387461843
+    },
+    "temperature": {
+      "shape": [
+        45253,
+        37
+      ],
+      "missing_pct": 0.47958594353308515
+    },
+    "weather_description": {
+      "shape": [
+        45253,
+        37
+      ],
+      "missing_pct": 0.47510662276534155
+    },
+    "wind_direction": {
+      "shape": [
+        45253,
+        37
+      ],
+      "missing_pct": 0.4763011083034065
+    },
+    "wind_speed": {
+      "shape": [
+        45253,
+        37
+      ],
+      "missing_pct": 0.477376145287665
+    }
+  },
+  "feature_engineering": {
+    "final_features": [
+      "hour",
+      "day_of_week",
+      "is_weekend",
+      "is_rush_hour",
+      "minneapolis_humidity",
+      "minneapolis_pressure",
+      "minneapolis_temperature"
+    ],
+    "temporal_features": [
+      "hour",
+      "day_of_week",
+      "is_weekend",
+      "is_rush_hour"
+    ],
+    "weather_features": [
+      "minneapolis_humidity",
+      "minneapolis_pressure",
+      "minneapolis_temperature"
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+Study/System,Accuracy (%),Data Type,Real-time
+Our Random Forest,91.3,Public Sensors + Weather,Yes
+Zhang et al. (2020) - LSTM,87.5,GPS Trajectory,Yes
+Kumar et al. (2019) - SVM,82.3,Loop Detectors,Limited
+Li et al. (2021) - Hybrid,85.8,Multi-source,Yes
+Google Maps (Estimated),88.0,GPS + Crowdsourced,Yes
+Traditional Methods,72.5,Historical Patterns,No

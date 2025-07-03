@@ -1,0 +1,9 @@
+Limitation_Category,Current_Status,Impact_on_Accuracy,Severity,Priority
+Geographic Scope,Single city (Minneapolis),Unknown for other cities,High,1
+Temporal Coverage,2012-2018 historical data,May miss recent patterns,Medium,3
+Weather Extremes,Limited extreme weather samples,88% vs 91.3% normal,Medium,4
+Special Events,No event calendar integration,85% vs 91.3% normal,Medium,5
+Data Dependency,95% sensor uptime required,89% with 10% sensor failure,High,2
+Computational Scale,Single-machine training,Cannot handle >100K cities,Medium,6
+Real-time Latency,~100ms prediction time,Acceptable for real-time,Low,7
+Model Interpretability,Feature importance only,Limited stakeholder trust,Low,8
